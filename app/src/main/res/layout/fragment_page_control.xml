@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/PageControlLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PageControlFragment">
+
+    <ImageButton
+        android:id="@+id/ForwardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+
+        android:contentDescription="@string/ForwardButtonDesc"
+        android:src="@drawable/front_arrow"
+        android:translationX="55dp" />
+
+    <EditText
+        android:id="@+id/eTextURL"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:ems="11"
+        android:inputType="textUri"
+        android:translationX="110dp" />
+
+    <ImageButton
+        android:id="@+id/BackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@string/BackButtonDesc"
+        android:src="@drawable/back_arrow" />
+
+    <ImageButton
+        android:id="@+id/goButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|center_vertical"
+        android:contentDescription="@string/GoButtonDesc"
+        android:src="@drawable/go"
+        android:translationX="-10px" />
+</FrameLayout>

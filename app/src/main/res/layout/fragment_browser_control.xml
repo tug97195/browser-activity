@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BrowserControlFragment">
+
+    <ImageButton
+        android:id="@+id/bookMarkButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|start"
+        android:contentDescription="@string/BookmarkDesc"
+        android:src="@android:drawable/ic_input_get"
+        android:translationX="5dp"/>
+
+    <ImageButton
+        android:id="@+id/saveBookmarkButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@string/SaveBookmarkDesc"
+        android:src="@android:drawable/ic_menu_save"
+        android:translationX="-115dp" />
+
+    <ImageButton
+        android:id="@+id/newTabButton"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|end"
+        android:contentDescription="@string/NewTabDesc"
+        android:src="@android:drawable/ic_menu_add" />
+</FrameLayout>
