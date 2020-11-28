@@ -28,7 +28,6 @@ public class BookmarkListAdapter extends BaseAdapter implements ListAdapter {
     public int getCount() {
         return list.size();
     }
-
     @Override
     public Object getItem(int pos) {
         return list.get(pos);
