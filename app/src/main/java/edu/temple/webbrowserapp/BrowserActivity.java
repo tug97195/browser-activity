@@ -51,9 +51,7 @@ public class BrowserActivity extends AppCompatActivity implements PageControlFra
         }
 
         fm = getSupportFragmentManager();
-
         listMode = findViewById(R.id.page_list_layout) != null;
-
         Fragment tmpFragment;
 
         // If PageControlFragment already added (activity restarted) then hold reference
