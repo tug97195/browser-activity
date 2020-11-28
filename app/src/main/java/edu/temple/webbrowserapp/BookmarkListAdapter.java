@@ -16,9 +16,6 @@ import java.util.ArrayList;
 public class BookmarkListAdapter extends BaseAdapter implements ListAdapter {
     private ArrayList<String> list = new ArrayList<String>();
     private Context context;
-
-
-
     public BookmarkListAdapter(ArrayList<String> list, Context context) {
         this.list = list;
         this.context = context;
