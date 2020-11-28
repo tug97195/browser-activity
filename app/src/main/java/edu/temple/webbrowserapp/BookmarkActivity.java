@@ -58,6 +58,5 @@ public class BookmarkActivity extends AppCompatActivity {
             editor.putStringSet(SAVED_PAGES, savedSet);
             editor.commit();
         }
-
     }
 }
