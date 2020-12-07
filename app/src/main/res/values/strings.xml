@@ -3,7 +3,6 @@
     <string name="NewTabDesc">New Tab Button</string>
     <string name="SaveBookmarkDesc">Save Bookmark Button</string>
     <string name="BookmarkDesc">Bookmark Button</string>
-
     <string name="BackButtonDesc">Back Button</string>
     <string name="ForwardButtonDesc">Forward Button</string>
     <string name="GoButtonDesc">Go Button</string>
